@@ -44,11 +44,11 @@ export const CallToAction = () => {
   return (
     <section
       ref={containerRef}
-      className="relative py-24 overflow-hidden bg-gradient-to-b from-black via-gray-900/95 to-black"
+      className="relative py-24 overflow-hidden bg-black/95"
     >
       <motion.div
         style={{ y, opacity } as HTMLMotionProps<"div">["style"]}
-        className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/30 via-transparent to-transparent"
+        className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent"
       />
 
       <div className="container mx-auto px-4 relative z-10">

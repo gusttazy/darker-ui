@@ -73,7 +73,7 @@ export const Features = () => {
   return (
     <section
       ref={containerRef}
-      className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-900/90 via-gray-900/95 to-black"
+      className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-800/90 via-gray-900/95 to-black"
     >
       <motion.div
         style={{ y, opacity } as HTMLMotionProps<"div">["style"]}

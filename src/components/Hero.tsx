@@ -54,7 +54,7 @@ export const Hero = () => {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black via-gray-900/95 to-gray-900/90"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black via-gray-900/95 to-gray-800/90"
     >
       <motion.div
         style={{ y, opacity } as HTMLMotionProps<"div">["style"]}

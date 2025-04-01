@@ -88,9 +88,8 @@ export const FAQs = () => {
   return (
     <section
       ref={containerRef}
-      className="relative py-24 overflow-hidden bg-gradient-to-b from-black via-gray-900/95 to-black"
+      className="relative py-24 overflow-hidden bg-gradient-to-b from-gray-800/90 via-gray-900/95 to-black"
     >
-      {/* Efeito de fundo sutil */}
       <motion.div
         style={{ y, opacity } as HTMLMotionProps<"div">["style"]}
         className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/30 via-transparent to-transparent"
